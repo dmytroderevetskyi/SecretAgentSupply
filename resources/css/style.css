@@ -1,4 +1,4 @@
-
+/*______________________Header__________________*/
 .begin{
   display: flex;
   width: 100%;
@@ -13,7 +13,6 @@
 }
 .img img{
   height: 1.5rem;
-
 }
 .h{
   margin: 0.66rem 0 0.66rem 1.5rem;
@@ -26,21 +25,19 @@ header{
   flex-direction: row;
   color: white;
   width: 960px;
-
 }
-
-
+/*______________________Header__________________*/
+/*______________________Body__________________*/
 .main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-
+/*______________________Body__________________*/
+/*______________________1 Column__________________*/
 .first{
   display: flex;
   height: 25rem;
-
 }
 .first1{
   background-image: url('F:/Projects/SecretAgentSupply/resources/photos/moto.jpeg');
@@ -54,23 +51,17 @@ header{
   width: 100%;
   display: flex;
   flex-direction: column;
-
-
 }
-
-
 .first2 h2{
   font-size: 1rem;
   margin-top: 2rem;
   margin-left: 3rem;
-
 }
 .first2 h1{
   font-size: 1.7rem;
   margin-top: 0.25rem;
   margin-left: 3rem;
 }
-
 .first2{
   display: flex;
   flex-direction: column;
@@ -81,6 +72,8 @@ header{
   height: 10rem;
   margin-left: 12.5rem;
 }
+/*______________________1 Column__________________*/
+/*______________________2 Column__________________*/
 .second{
   display: flex;
   flex-direction: row;
@@ -92,18 +85,15 @@ header{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   justify-content: center;
-
-
 }
-
-
 .second h2{
   display: flex;
   width: 960px;
   align-self: center;
   justify-content: space-between;
-
 }
+/*______________________2 Column__________________*/
+/*______________________3 Column__________________*/
 .third{
   align-self: center;
   justify-content: space-between;
@@ -112,7 +102,6 @@ header{
   flex-direction: row;
   width: 960px;
   margin-bottom: 3rem;
-
 }
 .third1, .third2, .third3{
   border-style: solid;
@@ -122,14 +111,12 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .third1_1 img, .third2_1 img, .third3_1 img{
   height: 9rem;
   width: 9rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-
 }
 .third1_2, .third2_2, .third3_2{
   background-color: black;
@@ -140,6 +127,8 @@ header{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+/*______________________3 Column__________________*/
+/*______________________4 Column__________________*/
 .fourth{
   width: 960px;
   display: flex;
@@ -158,11 +147,12 @@ header{
   padding: 1rem 0 1rem 2rem;
   color: white;
   background-color: black;
-
 }
 .fourth1_2, .fourth2_2{
   padding: 1rem 0 1rem 2rem;
 }
+/*______________________4 Column__________________*/
+/*______________________Footer__________________*/
 footer{
   display: flex;
   height: 5rem;
@@ -176,8 +166,9 @@ footer{
   width: 960px;
   text-align: left;
   align-self: center;
-
 }
+/*______________________Footer__________________*/
+/*______________________Media Function__________________*/
 @media only screen and (min-width: 1024px) {
   .resolution h2{
     display: none;
@@ -258,3 +249,4 @@ footer{
     padding: 1rem 0 1rem 2rem;
   }
 }
+/*______________________Media Function__________________*/
