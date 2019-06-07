@@ -1,0 +1,260 @@
+
+.begin{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  z-index: 3;
+  background-color: black;
+  justify-content: center;
+}
+.img{
+  margin-left: 0.5rem;
+  align-self: center;
+}
+.img img{
+  height: 1.5rem;
+
+}
+.h{
+  margin: 0.66rem 0 0.66rem 1.5rem;
+  align-self: center;
+  font-family: helvetica;
+  font-size: 1rem;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 960px;
+
+}
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.first{
+  display: flex;
+  height: 25rem;
+
+}
+.first1{
+  background-image: url('F:/Projects/SecretAgentSupply/resources/photos/moto.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: helvetica;
+  font-weight: bold;
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+.first2 h2{
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+
+}
+.first2 h1{
+  font-size: 1.7rem;
+  margin-top: 0.25rem;
+  margin-left: 3rem;
+}
+
+.first2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 20rem;
+  background-color: black;
+  margin-top: 9rem;
+  height: 10rem;
+  margin-left: 12.5rem;
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  background-color: firebrick;
+  width: 100%;
+  color: white;
+  font-family: helvetica;
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  justify-content: center;
+
+
+}
+
+
+.second h2{
+  display: flex;
+  width: 960px;
+  align-self: center;
+  justify-content: space-between;
+
+}
+.third{
+  align-self: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  margin-bottom: 3rem;
+
+}
+.third1, .third2, .third3{
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.third1_1 img, .third2_1 img, .third3_1 img{
+  height: 9rem;
+  width: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+.third1_2, .third2_2, .third3_2{
+  background-color: black;
+  font-family: helvetica;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.fourth{
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: helvetica;
+  align-self: center;
+  margin-bottom: 4rem;
+}
+.fourth1, .fourth2{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.fourth1_1, .fourth2_1{
+  padding: 1rem 0 1rem 2rem;
+  color: white;
+  background-color: black;
+
+}
+.fourth1_2, .fourth2_2{
+  padding: 1rem 0 1rem 2rem;
+}
+footer{
+  display: flex;
+  height: 5rem;
+  background-color: black;
+  font-family: helvetica;
+  width: 100%;
+  justify-content: center;
+}
+.f1{
+  color: white;
+  width: 960px;
+  text-align: left;
+  align-self: center;
+
+}
+@media only screen and (min-width: 1024px) {
+  .resolution h2{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px),(orientation: portrait) {
+  .second h2{
+    display: none;
+  }
+  .resolution h2{
+    display: inline;
+  }
+  .first2{
+    margin-left: 10%;
+  }
+  .third1, .third2, .third3{
+    width: 47%;
+  }
+  .third3{
+    display: none;
+  }
+  .third, .fourth{
+    width: 80%;
+  }
+  .fourth1_2, .fourth2_2{
+    padding: 1rem 0 1rem 0rem;
+  }
+}
+@media only screen and (max-width: 470px),(orientation: portrait) {
+  .first{
+    height: 15rem;
+  }
+  .first1{
+    height: 15rem;
+  }
+  .first2{
+    margin-top: 10rem;
+    width: 100%;
+    margin-left: 0;
+    height: 30%;
+  }
+  .first2 h2{
+    font-family: helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .first2 h1{
+    font-family: helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+  .third{
+    justify-content: center;
+  }
+  .third1, .third2, .third3{
+    width: 90%;
+  }
+  .third2, .third3{
+    display: none;
+  }
+  .fourth{
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth1, .fourth2{
+    width: 90%;
+  }
+  .fourth1{
+    margin-bottom: 0.5rem;
+  }
+  .f1{
+    text-align: center;
+  }
+  .fourth1_2, .fourth2_2{
+    padding: 1rem 0 1rem 2rem;
+  }
+}
